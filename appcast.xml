@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>PortWin</title>
+    <link>https://portwin.kuka-lab.com</link>
+    <item>
+      <title>PortWin 1.16</title>
+      <pubDate>Mon, 05 Oct 2026 21:43:52 +0000</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>1.16</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>Automatic updates: PortWin now checks for new versions once a day and installs them in one click (PortWin → Check for Updates…)</li><li>If Rosetta 2 is missing on your Mac, PortWin now explains it and installs it for you instead of failing with a &quot;Bad CPU type&quot; error</li><li>New items in the PortWin menu: PortWin Website and Buy PortWin</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.16/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="6NA5HgN+5IcTK08YY3Si7tOzlJ5qLJOgM1uM16tI0ThCBe5JoJ8YrKB4hU2NSi6kcTa8erTfXBbwHrXXTr17Dw==" length="406843360" />
+    </item>
+  </channel>
+</rss>

@@ -4,13 +4,13 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.16</title>
-      <pubDate>Mon, 05 Oct 2026 21:43:52 +0000</pubDate>
-      <sparkle:version>17</sparkle:version>
-      <sparkle:shortVersionString>1.16</sparkle:shortVersionString>
+      <title>PortWin 1.17</title>
+      <pubDate>Mon, 05 Oct 2026 23:30:02 +0000</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>1.17</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Automatic updates: PortWin now checks for new versions once a day and installs them in one click (PortWin → Check for Updates…)</li><li>If Rosetta 2 is missing on your Mac, PortWin now explains it and installs it for you instead of failing with a &quot;Bad CPU type&quot; error</li><li>New items in the PortWin menu: PortWin Website and Buy PortWin</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.16/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="6NA5HgN+5IcTK08YY3Si7tOzlJ5qLJOgM1uM16tI0ThCBe5JoJ8YrKB4hU2NSi6kcTa8erTfXBbwHrXXTr17Dw==" length="406843360" />
+      <description><![CDATA[<ul><li>System Check (sidebar and File menu): checks Rosetta 2, the Wine engine, disk space, memory and download servers, with a one-click fix for each problem</li><li>When you open a Windows file, PortWin asks which bottle to use — or creates a new one</li><li>High Resolution (Retina) mode per bottle: sharp text and interfaces in Windows programs</li><li>Report a Problem (Help menu): sends a report with logs to the developer in one click</li><li>Windows components (Visual C++, .NET, DirectX, fonts) now download from PortWin&#x27;s own fast mirror, and the most common ones are fetched in advance over Wi-Fi</li><li>New recipes: Microsoft Office 2010–2016, 1C:Enterprise 8.3 and GOG offline game installers — choose your installer, setup.exe or ISO image, and PortWin does the rest</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.17/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="5w6cqYy5gb4DofmCa0rsZ9tkLoToOiIUra+fnPCmug9bHS//99UHOimZkigqeXXmx0pvt+YbrAhkoIbtZ3f5BQ==" length="407165531" />
     </item>
   </channel>
 </rss>

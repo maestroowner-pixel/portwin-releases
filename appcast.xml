@@ -4,16 +4,17 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.18</title>
-      <pubDate>Tue, 06 Oct 2026 11:07:35 +0000</pubDate>
-      <sparkle:version>19</sparkle:version>
-      <sparkle:shortVersionString>1.18</sparkle:shortVersionString>
+      <title>PortWin 1.19</title>
+      <pubDate>Tue, 06 Oct 2026 13:59:12 +0000</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>1.19</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Fix Automatically: when a program crashes, PortWin tries known fixes one by one — missing components, settings recommended for that program, the other graphics engine, Windows 7 mode, essential libraries — and relaunches it after each, keeping only what helped</li><li>Much smaller updates: PortWin now downloads only what changed — about 1 MB instead of 400 MB</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.18/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="886AHykZUxryJTLhCV2jaCtP5Ddh6lEYKA6oqbEKJYju7qzkJVJ6/wYFEp+dPEpG8K/+mSV/rKLgrbhMrhhYBg==" length="406972691" />
+      <description><![CDATA[<ul><li>Create App in Launchpad: right-click any program in a bottle to get its own app with the program&#x27;s icon — in Launchpad, Spotlight and the Dock</li><li>New built-in Wine engine: Wine 10 (latest Sikarugir build) with DXMT 0.80 — DirectX 10–11 via Metal, now for 32-bit games too</li><li>D3DMetal for DirectX 12 games now comes from Apple directly: download the free Game Porting Toolkit and PortWin connects it in one click (Settings, a bottle&#x27;s Graphics, or System Check). If you already use D3DMetal, nothing changes</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.19/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="JkzUgyjFWhC6waOYLQdsiwgXEVNX43ODXuLxj43um7+VTbl/WH4A4TndnFA23aitg9r9o15rP6pfTtZg+lGYCw==" length="386074065" />
       <sparkle:deltas>
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.18/PortWin-19-from-18.delta" sparkle:deltaFrom="18" type="application/octet-stream" sparkle:edSignature="tAhNXiz8lWQH34clXnvTF3/7a7ahumVZ6cp/Hk6X6b4hM96h3wFcGptXt8ET+I76I35XHHn90XUQj6R0Yj6cAw==" length="730534" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.18/PortWin-19-from-17.delta" sparkle:deltaFrom="17" type="application/octet-stream" sparkle:edSignature="avfUKF6rQswI76KHatUGS9MPPqsdBDxyEJ3i/p1hicb3zOhep8uHvv82Jz2NSXtjTsPGliEwI+aU9akLtbI2Cw==" length="915234" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.19/PortWin-20-from-19.delta" sparkle:deltaFrom="19" type="application/octet-stream" sparkle:edSignature="5gVjQGGVOULGRhVYAklGfBejJ7L05AshYO21zzOdQzu3hI9iboL9ZSkNi+NfHmrUDpHOS2Cu/AFbzNgc0iAlDg==" length="13261434" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.19/PortWin-20-from-18.delta" sparkle:deltaFrom="18" type="application/octet-stream" sparkle:edSignature="5AHsKYwZ/BzkrfCpANfSObwrsXplzh2q3GIgSYdC7HikSMwF1duNDChvetlZKAv4szzMBH6c02YDW9C8ZvOCCA==" length="13319406" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.19/PortWin-20-from-17.delta" sparkle:deltaFrom="17" type="application/octet-stream" sparkle:edSignature="qK+EpWREg5ZlxGrXe1PT/Und45LnblAaQfJLeJmkJElwWXBhl1uHD17sjGCp/0mnlmPTaQMkPC2BZiyKDlX7Aw==" length="13473150" />
       </sparkle:deltas>
     </item>
   </channel>

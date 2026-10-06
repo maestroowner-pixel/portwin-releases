@@ -4,15 +4,16 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.17</title>
-      <pubDate>Tue, 06 Oct 2026 10:16:15 +0000</pubDate>
-      <sparkle:version>18</sparkle:version>
-      <sparkle:shortVersionString>1.17</sparkle:shortVersionString>
+      <title>PortWin 1.18</title>
+      <pubDate>Tue, 06 Oct 2026 11:07:35 +0000</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>1.18</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>System Check (sidebar and File menu): checks Rosetta 2, the Wine engine, disk space, memory and download servers, with a one-click fix for each problem</li><li>When you open a Windows file, PortWin asks which bottle to use — or creates a new one</li><li>High Resolution (Retina) mode per bottle: sharp text and interfaces in Windows programs</li><li>Report a Problem (Help menu): sends a report with logs to the developer in one click</li><li>Windows components (Visual C++, .NET, DirectX, fonts) now download from PortWin&#x27;s own fast mirror, and the most common ones are fetched in advance over Wi-Fi</li><li>New recipes: Microsoft Office 2010–2016, 1C:Enterprise 8.3 and GOG offline game installers — choose your installer, setup.exe or ISO image, and PortWin does the rest</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.17/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="5w6cqYy5gb4DofmCa0rsZ9tkLoToOiIUra+fnPCmug9bHS//99UHOimZkigqeXXmx0pvt+YbrAhkoIbtZ3f5BQ==" length="407165531" />
+      <description><![CDATA[<ul><li>Fix Automatically: when a program crashes, PortWin tries known fixes one by one — missing components, settings recommended for that program, the other graphics engine, Windows 7 mode, essential libraries — and relaunches it after each, keeping only what helped</li><li>Much smaller updates: PortWin now downloads only what changed — about 1 MB instead of 400 MB</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.18/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="886AHykZUxryJTLhCV2jaCtP5Ddh6lEYKA6oqbEKJYju7qzkJVJ6/wYFEp+dPEpG8K/+mSV/rKLgrbhMrhhYBg==" length="406972691" />
       <sparkle:deltas>
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.17/PortWin-18-from-17.delta" sparkle:deltaFrom="17" type="application/octet-stream" sparkle:edSignature="fDvK4su6rgCa+ChpAvev4GPnAfX1lvQWuNahrkIdGVOXSxIvdqMZzZjmuOkbkekbViOpUz/Vnqa4dk12o16fAQ==" length="858546" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.18/PortWin-19-from-18.delta" sparkle:deltaFrom="18" type="application/octet-stream" sparkle:edSignature="tAhNXiz8lWQH34clXnvTF3/7a7ahumVZ6cp/Hk6X6b4hM96h3wFcGptXt8ET+I76I35XHHn90XUQj6R0Yj6cAw==" length="730534" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.18/PortWin-19-from-17.delta" sparkle:deltaFrom="17" type="application/octet-stream" sparkle:edSignature="avfUKF6rQswI76KHatUGS9MPPqsdBDxyEJ3i/p1hicb3zOhep8uHvv82Jz2NSXtjTsPGliEwI+aU9akLtbI2Cw==" length="915234" />
       </sparkle:deltas>
     </item>
   </channel>

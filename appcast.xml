@@ -4,17 +4,17 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.19</title>
-      <pubDate>Tue, 06 Oct 2026 13:59:12 +0000</pubDate>
-      <sparkle:version>20</sparkle:version>
-      <sparkle:shortVersionString>1.19</sparkle:shortVersionString>
+      <title>PortWin 1.20</title>
+      <pubDate>Tue, 06 Oct 2026 14:56:54 +0000</pubDate>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>1.20</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Create App in Launchpad: right-click any program in a bottle to get its own app with the program&#x27;s icon — in Launchpad, Spotlight and the Dock</li><li>New built-in Wine engine: Wine 10 (latest Sikarugir build) with DXMT 0.80 — DirectX 10–11 via Metal, now for 32-bit games too</li><li>D3DMetal for DirectX 12 games now comes from Apple directly: download the free Game Porting Toolkit and PortWin connects it in one click (Settings, a bottle&#x27;s Graphics, or System Check). If you already use D3DMetal, nothing changes</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.19/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="JkzUgyjFWhC6waOYLQdsiwgXEVNX43ODXuLxj43um7+VTbl/WH4A4TndnFA23aitg9r9o15rP6pfTtZg+lGYCw==" length="386074065" />
+      <description><![CDATA[<ul><li>Wine 11 engine: install the newer Wine in one click from Graphics &amp; Engines (bottle settings → Other Engines…). It helps programs that don&#x27;t run on the built-in Wine 10</li><li>Graphics &amp; Engines: one place to see the built-in DXMT engine, add Wine 11 and connect Apple&#x27;s D3DMetal</li><li>Fix Automatically now tries every installed engine, including Wine 11</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.20/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="2ibi019TM9UHrBfPyA8NEJNIRAMg2JHzYF2x3d671uY6v3NXu2u4KC2kQZlTLbdBbojlvfYpXHnRCh9ID33nBQ==" length="385588019" />
       <sparkle:deltas>
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.19/PortWin-20-from-19.delta" sparkle:deltaFrom="19" type="application/octet-stream" sparkle:edSignature="5gVjQGGVOULGRhVYAklGfBejJ7L05AshYO21zzOdQzu3hI9iboL9ZSkNi+NfHmrUDpHOS2Cu/AFbzNgc0iAlDg==" length="13261434" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.19/PortWin-20-from-18.delta" sparkle:deltaFrom="18" type="application/octet-stream" sparkle:edSignature="5AHsKYwZ/BzkrfCpANfSObwrsXplzh2q3GIgSYdC7HikSMwF1duNDChvetlZKAv4szzMBH6c02YDW9C8ZvOCCA==" length="13319406" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.19/PortWin-20-from-17.delta" sparkle:deltaFrom="17" type="application/octet-stream" sparkle:edSignature="qK+EpWREg5ZlxGrXe1PT/Und45LnblAaQfJLeJmkJElwWXBhl1uHD17sjGCp/0mnlmPTaQMkPC2BZiyKDlX7Aw==" length="13473150" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.20/PortWin-21-from-20.delta" sparkle:deltaFrom="20" type="application/octet-stream" sparkle:edSignature="7EvooSt/Ph8siMWGc2qSqMufuVCpC+1J9dMwv+ywkrt6s+nyWytVzGlYmr4hENUlMzsJHg10Lra6s0ezNlw0AA==" length="695642" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.20/PortWin-21-from-19.delta" sparkle:deltaFrom="19" type="application/octet-stream" sparkle:edSignature="kDPF3+S0i8GeVRG2STBbJZv2UXhTO7Ibun0HRJEqzIS6MpVWxYYdwwJye2+P0p9dZMrL0fxr/88xctguCtgWAg==" length="13286654" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.20/PortWin-21-from-18.delta" sparkle:deltaFrom="18" type="application/octet-stream" sparkle:edSignature="FzV6yGbSXCsG1THu9RF8mOGGjbqiGnjU3Np2yZDhlF38tXte/Ej9J9lxBMB7TayjDm0DHPtuuYgK0ONkg1q2Cw==" length="13350742" />
       </sparkle:deltas>
     </item>
   </channel>

@@ -4,17 +4,17 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.20</title>
-      <pubDate>Tue, 06 Oct 2026 14:56:54 +0000</pubDate>
-      <sparkle:version>21</sparkle:version>
-      <sparkle:shortVersionString>1.20</sparkle:shortVersionString>
+      <title>PortWin 1.21</title>
+      <pubDate>Wed, 07 Oct 2026 07:32:43 +0000</pubDate>
+      <sparkle:version>22</sparkle:version>
+      <sparkle:shortVersionString>1.21</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Wine 11 engine: install the newer Wine in one click from Graphics &amp; Engines (bottle settings → Other Engines…). It helps programs that don&#x27;t run on the built-in Wine 10</li><li>Graphics &amp; Engines: one place to see the built-in DXMT engine, add Wine 11 and connect Apple&#x27;s D3DMetal</li><li>Fix Automatically now tries every installed engine, including Wine 11</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.20/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="2ibi019TM9UHrBfPyA8NEJNIRAMg2JHzYF2x3d671uY6v3NXu2u4KC2kQZlTLbdBbojlvfYpXHnRCh9ID33nBQ==" length="385588019" />
+      <description><![CDATA[<ul><li>Windows of Windows programs now come to the front after launch — Stage Manager no longer hides them (this is what made the Steam sign-in window &quot;disappear&quot;)</li><li>Built-in engine now uses DXMT 0.74: Skyrim Special Edition and other DirectX 11 games that crashed while loading a world work again</li><li>Known games get ready-made fixes: PortWin spots an installed game (starting with Skyrim SE) and offers to apply them in one click</li><li>Per-program settings: each program can have its own graphics engine, Windows version and launch arguments (right-click → Program Settings…)</li><li>Bottle backups: instant snapshots you can restore in one click; made automatically before Fix Automatically and before changing graphics</li><li>System Check now draws a real Direct3D 11 frame on every engine</li><li>&quot;AVX for games&quot; option (on by default), log files capped at 40 MB, a clear prompt when changing graphics while programs are running</li><li>Steam recipe: sign in with account name and password; Licenses &amp; Acknowledgements window</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.21/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="34VxibSUEHtILQpAvM9J9nPlJ5v0UcwL6MUR9MnCy3qYj/nY4m67Up0lVUs7tCmRnN9uJkiXXhhgtO9JnowWAw==" length="385950493" />
       <sparkle:deltas>
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.20/PortWin-21-from-20.delta" sparkle:deltaFrom="20" type="application/octet-stream" sparkle:edSignature="7EvooSt/Ph8siMWGc2qSqMufuVCpC+1J9dMwv+ywkrt6s+nyWytVzGlYmr4hENUlMzsJHg10Lra6s0ezNlw0AA==" length="695642" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.20/PortWin-21-from-19.delta" sparkle:deltaFrom="19" type="application/octet-stream" sparkle:edSignature="kDPF3+S0i8GeVRG2STBbJZv2UXhTO7Ibun0HRJEqzIS6MpVWxYYdwwJye2+P0p9dZMrL0fxr/88xctguCtgWAg==" length="13286654" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.20/PortWin-21-from-18.delta" sparkle:deltaFrom="18" type="application/octet-stream" sparkle:edSignature="FzV6yGbSXCsG1THu9RF8mOGGjbqiGnjU3Np2yZDhlF38tXte/Ej9J9lxBMB7TayjDm0DHPtuuYgK0ONkg1q2Cw==" length="13350742" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.21/PortWin-22-from-21.delta" sparkle:deltaFrom="21" type="application/octet-stream" sparkle:edSignature="DwgAF0jkSEWr+6nhOEr16HbwPVb4Dkmmd8/+eZ3ZmRqH+bdLrVOADNM7kOK664K6h4dxf0qIT45TLHEilsIdDA==" length="9397842" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.21/PortWin-22-from-20.delta" sparkle:deltaFrom="20" type="application/octet-stream" sparkle:edSignature="VZLtJkbIg8SxeM0QSAqnDXzsTM+gsbDv9K5dq0JxR8qRcv8Ed4kW+zEtCuTzDs/emwA/f4yd7iU2+DREB+vsBg==" length="9430926" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.21/PortWin-22-from-19.delta" sparkle:deltaFrom="19" type="application/octet-stream" sparkle:edSignature="lcR7mrrnalXli+9ECs4VDFeCybcjwFc7Ap1sPBfi+tghf2NiuFzP8qsJIyeofSubdXZKUMdQeLq0wqxebZ5iCw==" length="6256054" />
       </sparkle:deltas>
     </item>
   </channel>

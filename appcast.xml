@@ -4,17 +4,17 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.21</title>
-      <pubDate>Wed, 07 Oct 2026 07:32:43 +0000</pubDate>
-      <sparkle:version>22</sparkle:version>
-      <sparkle:shortVersionString>1.21</sparkle:shortVersionString>
+      <title>PortWin 1.22</title>
+      <pubDate>Wed, 07 Oct 2026 16:40:09 +0000</pubDate>
+      <sparkle:version>23</sparkle:version>
+      <sparkle:shortVersionString>1.22</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Windows of Windows programs now come to the front after launch — Stage Manager no longer hides them (this is what made the Steam sign-in window &quot;disappear&quot;)</li><li>Built-in engine now uses DXMT 0.74: Skyrim Special Edition and other DirectX 11 games that crashed while loading a world work again</li><li>Known games get ready-made fixes: PortWin spots an installed game (starting with Skyrim SE) and offers to apply them in one click</li><li>Per-program settings: each program can have its own graphics engine, Windows version and launch arguments (right-click → Program Settings…)</li><li>Bottle backups: instant snapshots you can restore in one click; made automatically before Fix Automatically and before changing graphics</li><li>System Check now draws a real Direct3D 11 frame on every engine</li><li>&quot;AVX for games&quot; option (on by default), log files capped at 40 MB, a clear prompt when changing graphics while programs are running</li><li>Steam recipe: sign in with account name and password; Licenses &amp; Acknowledgements window</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.21/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="34VxibSUEHtILQpAvM9J9nPlJ5v0UcwL6MUR9MnCy3qYj/nY4m67Up0lVUs7tCmRnN9uJkiXXhhgtO9JnowWAw==" length="385950493" />
+      <description><![CDATA[<ul><li>Install straight from archives: drop a .zip, .7z or .rar with an installer (or a distribution folder) — PortWin unpacks it and finds setup.exe inside. Works for drag and drop, Open and recipes (1C, Office, GOG).</li><li>New launch screen: a small window with the PortWin icon while the app loads.</li><li>The privacy acceptance screen now matches the updated Privacy Policy of 7 October 2026 (updates, component downloads, problem reports).</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.22/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="ZPD5kDxMaMvFKZkXh3EMo1VuAzTN1Q6s5jIwmQn4y/fPu8FbqJC6WEM3ltGmCuxPQRNB30SoEU1pplenKXWRDw==" length="385533416" />
       <sparkle:deltas>
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.21/PortWin-22-from-21.delta" sparkle:deltaFrom="21" type="application/octet-stream" sparkle:edSignature="DwgAF0jkSEWr+6nhOEr16HbwPVb4Dkmmd8/+eZ3ZmRqH+bdLrVOADNM7kOK664K6h4dxf0qIT45TLHEilsIdDA==" length="9397842" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.21/PortWin-22-from-20.delta" sparkle:deltaFrom="20" type="application/octet-stream" sparkle:edSignature="VZLtJkbIg8SxeM0QSAqnDXzsTM+gsbDv9K5dq0JxR8qRcv8Ed4kW+zEtCuTzDs/emwA/f4yd7iU2+DREB+vsBg==" length="9430926" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.21/PortWin-22-from-19.delta" sparkle:deltaFrom="19" type="application/octet-stream" sparkle:edSignature="lcR7mrrnalXli+9ECs4VDFeCybcjwFc7Ap1sPBfi+tghf2NiuFzP8qsJIyeofSubdXZKUMdQeLq0wqxebZ5iCw==" length="6256054" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.22/PortWin-23-from-22.delta" sparkle:deltaFrom="22" type="application/octet-stream" sparkle:edSignature="43NUlLZisTJcEfI5xs8l+nGdDEF20q9BGBHNacsbMEJEYTrop+YwxnHGXKLygDCfCfG+fE4RLCcerhuihNQ9Cw==" length="696446" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.22/PortWin-23-from-21.delta" sparkle:deltaFrom="21" type="application/octet-stream" sparkle:edSignature="E/Dx40+0W3O+dnko5n/iFCJc7ZAbmTmlA3CZyOpiGtwzVPxTPrhi2ZztfrR2RQjY3wNdVju6Hb2Hm2LBc3v8CA==" length="9426382" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.22/PortWin-23-from-20.delta" sparkle:deltaFrom="20" type="application/octet-stream" sparkle:edSignature="hrwlx2BndWHAybZh+KPJzxzHj4bbgyN1ajuOWkHtEfmwkK6uSImxKnBC3YMjPd90MkGzJXih4SkaRIGuIaGCCg==" length="9467778" />
       </sparkle:deltas>
     </item>
   </channel>

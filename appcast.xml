@@ -4,17 +4,17 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.22</title>
-      <pubDate>Wed, 07 Oct 2026 16:40:09 +0000</pubDate>
-      <sparkle:version>23</sparkle:version>
-      <sparkle:shortVersionString>1.22</sparkle:shortVersionString>
+      <title>PortWin 1.23</title>
+      <pubDate>Wed, 07 Oct 2026 21:18:23 +0000</pubDate>
+      <sparkle:version>24</sparkle:version>
+      <sparkle:shortVersionString>1.23</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Install straight from archives: drop a .zip, .7z or .rar with an installer (or a distribution folder) — PortWin unpacks it and finds setup.exe inside. Works for drag and drop, Open and recipes (1C, Office, GOG).</li><li>New launch screen: a small window with the PortWin icon while the app loads.</li><li>The privacy acceptance screen now matches the updated Privacy Policy of 7 October 2026 (updates, component downloads, problem reports).</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.22/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="ZPD5kDxMaMvFKZkXh3EMo1VuAzTN1Q6s5jIwmQn4y/fPu8FbqJC6WEM3ltGmCuxPQRNB30SoEU1pplenKXWRDw==" length="385533416" />
+      <description><![CDATA[<ul><li>Video in Windows programs works again: MP4 (H.264) and WMV cutscenes failed to open because the video libraries weren’t found. System Check now plays test videos.</li><li>Voice chat: Windows programs can use the Mac’s microphone and camera (Discord, Teams, Zoom, in-game voice). System Check shows the microphone permission.</li><li>Crackle-free sound in every program: the Mac’s speakers switch to 48 kHz while Windows programs run, then back.</li><li>New bottles no longer ask which graphics engine to use — PortWin picks it (D3DMetal for DirectX 12 games when connected).</li><li>Bottle settings: frame-rate limit (60 / 30 fps to save battery) and MetalFX upscaling for DirectX 10–11 games.</li><li>OpenAL and DirectMusic are detected and installed automatically when a game needs them; System Check now also checks gamepads.</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.23/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="vFjsP4aLLhaYw3PqOnR34z/sgtCKIo5KWWedQZqdn/UJf0/D3wSZ4jLi3gTAjxQE624zYAY8AozaTqsW11pJAA==" length="386296190" />
       <sparkle:deltas>
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.22/PortWin-23-from-22.delta" sparkle:deltaFrom="22" type="application/octet-stream" sparkle:edSignature="43NUlLZisTJcEfI5xs8l+nGdDEF20q9BGBHNacsbMEJEYTrop+YwxnHGXKLygDCfCfG+fE4RLCcerhuihNQ9Cw==" length="696446" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.22/PortWin-23-from-21.delta" sparkle:deltaFrom="21" type="application/octet-stream" sparkle:edSignature="E/Dx40+0W3O+dnko5n/iFCJc7ZAbmTmlA3CZyOpiGtwzVPxTPrhi2ZztfrR2RQjY3wNdVju6Hb2Hm2LBc3v8CA==" length="9426382" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.22/PortWin-23-from-20.delta" sparkle:deltaFrom="20" type="application/octet-stream" sparkle:edSignature="hrwlx2BndWHAybZh+KPJzxzHj4bbgyN1ajuOWkHtEfmwkK6uSImxKnBC3YMjPd90MkGzJXih4SkaRIGuIaGCCg==" length="9467778" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.23/PortWin-24-from-23.delta" sparkle:deltaFrom="23" type="application/octet-stream" sparkle:edSignature="1WoJ92SZAhraAxGt7kMER08RXDcihBEE8LL5cOyTwGbH/fh+aYz7z7uRJcRTtlS3Q2rkZ+ZcfWi5u1RPUNpuBw==" length="1031754" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.23/PortWin-24-from-22.delta" sparkle:deltaFrom="22" type="application/octet-stream" sparkle:edSignature="asljz4E19JV6VhP5w/Q5iyR5Ei4NkKZ0aBY02NNtKZRk2GHZIT7bgNl5NLbr0iy6Ye43Rlk+ncma4lNodc30Bg==" length="1066950" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.23/PortWin-24-from-21.delta" sparkle:deltaFrom="21" type="application/octet-stream" sparkle:edSignature="lUelDphG1T6TjdeuSgdjOZtZLJoZbSrXNAM45nJtEHwvTAhIEFurj6duSs0fRN9brUkmESaH0yhjy44AN0zUAA==" length="9742850" />
       </sparkle:deltas>
     </item>
   </channel>

@@ -4,17 +4,17 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.25</title>
-      <pubDate>Thu, 08 Oct 2026 15:28:14 +0000</pubDate>
-      <sparkle:version>26</sparkle:version>
-      <sparkle:shortVersionString>1.25</sparkle:shortVersionString>
+      <title>PortWin 1.26</title>
+      <pubDate>Fri, 09 Oct 2026 17:16:37 +0000</pubDate>
+      <sparkle:version>27</sparkle:version>
+      <sparkle:shortVersionString>1.26</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Fixed: after updating PortWin while Steam (or another Windows program) was open, games launched from Steam crashed at start. PortWin now updates its Wine engine only once no programs are using it. If you hit this in 1.24, click “Stop All” in the Steam bottle and open Steam again.</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.25/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="Vcj19ssuMJaouBqfKN3cVYRpmrzy6MF2/FyPUNh/YbICnmNIJmJ8QRcimBNrSK2X9WeAS/kWta6Xprrh94tLAg==" length="386461578" />
+      <description><![CDATA[<ul><li>Microsoft Store packages (.msix, .appx and bundles) are recognised properly: PortWin reads their name and icon, and suggests the Mac version when one exists (for example, Claude).</li><li>Web installers and Setup.exe files without a built-in archive are now recognised as installers by their version information.</li><li>32-bit games that use XAudio get the 32-bit XAudio component (64-bit games keep the 64-bit one).</li><li>DirectX 12 games: the recommendation now explains that D3DMetal graphics are connected separately — once, free, from Apple’s website.</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.26/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="xpNwb21Roz37wG4QK3obDNDSB7eEszL1WgSVF/2r2Bw0Refsk8bB8V1vqHeBvydUPb9nW/5zQ+5U+0yHq1K5Cw==" length="386589882" />
       <sparkle:deltas>
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.25/PortWin-26-from-25.delta" sparkle:deltaFrom="25" type="application/octet-stream" sparkle:edSignature="A+AIaPGYHBOSKbydPuEIRLiwkLgTue6VZ7UrRGJjO//4l6V6faKLRjadiTQEb+4lQr0gd5dUkhVG1hz4AqlNAQ==" length="677406" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.25/PortWin-26-from-24.delta" sparkle:deltaFrom="24" type="application/octet-stream" sparkle:edSignature="oIsjBamTXUMdnLSc2F2rL4kU+711U5AtvQhldUKMbCrBo9hgsp2tsMHXK74N6vIJdqrBjKu/vPDmoMCww+F8Cw==" length="839546" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.25/PortWin-26-from-23.delta" sparkle:deltaFrom="23" type="application/octet-stream" sparkle:edSignature="QE+6IhkPG6L/lf3nS7CUnKwu7TXrGHv0yvaEPxLo6cn6e9C67g1jGZrptR/HdnQe2VjyqZG7qYYjNdst2X8oAg==" length="1144058" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.26/PortWin-27-from-26.delta" sparkle:deltaFrom="26" type="application/octet-stream" sparkle:edSignature="E5OyG1KMAqWtrJvh6eDMQaZ7FRo6xm9HVypQkliFPi2w5gw67YwUhEtfQDxe4+5Br9OC7oewYu+cdXvZFW7fBw==" length="707562" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.26/PortWin-27-from-25.delta" sparkle:deltaFrom="25" type="application/octet-stream" sparkle:edSignature="nRYODqJyc5tX1jzgUrkQXk+f9rqKLweIsmBzEf2QnS13o6VECcIN0XDXljK5FqwAxfXfA8wauMZdlgm1QoDaDg==" length="733270" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.26/PortWin-27-from-24.delta" sparkle:deltaFrom="24" type="application/octet-stream" sparkle:edSignature="2ZNfCFQ6WLPAyVa9qIlwcGeERlVKlv9TfwduYKYEiQasS9SpcOElwkRhgn5+DxXeqeTt2JnTqaBkc4JoGUszAQ==" length="868626" />
       </sparkle:deltas>
     </item>
   </channel>

@@ -4,17 +4,17 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.26</title>
-      <pubDate>Fri, 09 Oct 2026 17:16:37 +0000</pubDate>
-      <sparkle:version>27</sparkle:version>
-      <sparkle:shortVersionString>1.26</sparkle:shortVersionString>
+      <title>PortWin 1.27</title>
+      <pubDate>Mon, 19 Oct 2026 08:08:37 +0000</pubDate>
+      <sparkle:version>28</sparkle:version>
+      <sparkle:shortVersionString>1.27</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Microsoft Store packages (.msix, .appx and bundles) are recognised properly: PortWin reads their name and icon, and suggests the Mac version when one exists (for example, Claude).</li><li>Web installers and Setup.exe files without a built-in archive are now recognised as installers by their version information.</li><li>32-bit games that use XAudio get the 32-bit XAudio component (64-bit games keep the 64-bit one).</li><li>DirectX 12 games: the recommendation now explains that D3DMetal graphics are connected separately — once, free, from Apple’s website.</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.26/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="xpNwb21Roz37wG4QK3obDNDSB7eEszL1WgSVF/2r2Bw0Refsk8bB8V1vqHeBvydUPb9nW/5zQ+5U+0yHq1K5Cw==" length="386589882" />
+      <description><![CDATA[<ul><li>Fixed disk space running out: Wine helper processes left behind after a crash could write the same error to a log endlessly (one user&#x27;s log reached 137 GB). PortWin now stops such leftover processes and keeps every log small.</li><li>Steam, Epic, GOG Galaxy and Battle.net restarting themselves after an update is no longer treated as a crash.</li><li>&quot;Fix automatically&quot; no longer changes graphics for game launchers or in a bottle with a game whose graphics are known to work. Skyrim Special Edition stays on DXMT, and a banner offers to switch back if the graphics were changed.</li><li>Installers now default to drive C: — game repacks no longer offer Z:\Games and fail with &quot;cannot write data to disk&quot;.</li><li>Shortcuts that installers put on the desktop are moved into the bottle instead of cluttering the Mac desktop, and installed programs are found by them.</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.27/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="PK3HG5nt2Is6CAUQYjpKDi2+FKPuM9DJtitK9xVPYtm+UQEhdzE5fWTIeuVXBYtnglxlq1hJtmLoSwClHKODDw==" length="386575354" />
       <sparkle:deltas>
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.26/PortWin-27-from-26.delta" sparkle:deltaFrom="26" type="application/octet-stream" sparkle:edSignature="E5OyG1KMAqWtrJvh6eDMQaZ7FRo6xm9HVypQkliFPi2w5gw67YwUhEtfQDxe4+5Br9OC7oewYu+cdXvZFW7fBw==" length="707562" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.26/PortWin-27-from-25.delta" sparkle:deltaFrom="25" type="application/octet-stream" sparkle:edSignature="nRYODqJyc5tX1jzgUrkQXk+f9rqKLweIsmBzEf2QnS13o6VECcIN0XDXljK5FqwAxfXfA8wauMZdlgm1QoDaDg==" length="733270" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.26/PortWin-27-from-24.delta" sparkle:deltaFrom="24" type="application/octet-stream" sparkle:edSignature="2ZNfCFQ6WLPAyVa9qIlwcGeERlVKlv9TfwduYKYEiQasS9SpcOElwkRhgn5+DxXeqeTt2JnTqaBkc4JoGUszAQ==" length="868626" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.27/PortWin-28-from-27.delta" sparkle:deltaFrom="27" type="application/octet-stream" sparkle:edSignature="mdUkS8DRAk7j5xe5lAyiBRJ4DBxbMpldPGE3OXIPMusB6gBBifdr4cAt682RtJE7SJ7KqDnvTNSZ7NisPbSdAA==" length="776898" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.27/PortWin-28-from-26.delta" sparkle:deltaFrom="26" type="application/octet-stream" sparkle:edSignature="Gtnz2MT4qNXV0xINZvQkc3OrPwX7QEFcL8A47zI6OguoQv0tekLvhvUEHPgNyU34GPcS9aMqD6SoDc3Xvyh/DA==" length="805822" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.27/PortWin-28-from-25.delta" sparkle:deltaFrom="25" type="application/octet-stream" sparkle:edSignature="4uROFCo/ujBSqJhwdgk9g+jcYcq0u2sQ4ch1SF+/Q6eUgVLWteRBEJk+Q5eJOM/bi1NqtWp8ACKXCVgtqOUWAA==" length="808566" />
       </sparkle:deltas>
     </item>
   </channel>

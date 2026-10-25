@@ -4,17 +4,17 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.27</title>
-      <pubDate>Mon, 19 Oct 2026 08:08:37 +0000</pubDate>
-      <sparkle:version>28</sparkle:version>
-      <sparkle:shortVersionString>1.27</sparkle:shortVersionString>
+      <title>PortWin 1.28</title>
+      <pubDate>Sun, 25 Oct 2026 12:33:11 +0000</pubDate>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>1.28</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Fixed disk space running out: Wine helper processes left behind after a crash could write the same error to a log endlessly (one user&#x27;s log reached 137 GB). PortWin now stops such leftover processes and keeps every log small.</li><li>Steam, Epic, GOG Galaxy and Battle.net restarting themselves after an update is no longer treated as a crash.</li><li>&quot;Fix automatically&quot; no longer changes graphics for game launchers or in a bottle with a game whose graphics are known to work. Skyrim Special Edition stays on DXMT, and a banner offers to switch back if the graphics were changed.</li><li>Installers now default to drive C: — game repacks no longer offer Z:\Games and fail with &quot;cannot write data to disk&quot;.</li><li>Shortcuts that installers put on the desktop are moved into the bottle instead of cluttering the Mac desktop, and installed programs are found by them.</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.27/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="PK3HG5nt2Is6CAUQYjpKDi2+FKPuM9DJtitK9xVPYtm+UQEhdzE5fWTIeuVXBYtnglxlq1hJtmLoSwClHKODDw==" length="386575354" />
+      <description><![CDATA[<ul><li>When a .NET program crashes, its log now contains the exception type, message and stack (from the Windows event log), and &quot;Last run&quot; shows the exception type instead of a bare exception code.</li><li>Changing the Windows version and other service commands are no longer reported as crashes when something else in the bottle fails while Wine starts.</li><li>The problem report form now reminds you to leave an e-mail: without it the developer can&#x27;t reply or ask for details.</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.28/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="ine8eRH6ILmeWFjTiOdwrTeE9eDC0JE4dPAjgHYaQNWtHJhGP/ygGnb9TPoXtByQLFcMHHRg7aCb0TModEOXAg==" length="386704048" />
       <sparkle:deltas>
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.27/PortWin-28-from-27.delta" sparkle:deltaFrom="27" type="application/octet-stream" sparkle:edSignature="mdUkS8DRAk7j5xe5lAyiBRJ4DBxbMpldPGE3OXIPMusB6gBBifdr4cAt682RtJE7SJ7KqDnvTNSZ7NisPbSdAA==" length="776898" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.27/PortWin-28-from-26.delta" sparkle:deltaFrom="26" type="application/octet-stream" sparkle:edSignature="Gtnz2MT4qNXV0xINZvQkc3OrPwX7QEFcL8A47zI6OguoQv0tekLvhvUEHPgNyU34GPcS9aMqD6SoDc3Xvyh/DA==" length="805822" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.27/PortWin-28-from-25.delta" sparkle:deltaFrom="25" type="application/octet-stream" sparkle:edSignature="4uROFCo/ujBSqJhwdgk9g+jcYcq0u2sQ4ch1SF+/Q6eUgVLWteRBEJk+Q5eJOM/bi1NqtWp8ACKXCVgtqOUWAA==" length="808566" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.28/PortWin-29-from-28.delta" sparkle:deltaFrom="28" type="application/octet-stream" sparkle:edSignature="XWaIOOJ/qpstrlI+4n2WKoqDxMizSw7wBk+lyUVqXb5QoOANKBA0ui0b0N1WGLHPBSf5WDlXq3QD1aTUhlbeAQ==" length="599430" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.28/PortWin-29-from-27.delta" sparkle:deltaFrom="27" type="application/octet-stream" sparkle:edSignature="oL6LqFR0zRBwrwcvG+AvwbmMeBHHjKdjud890MMXBs4OBw0fteWHs4a/NB0VDDDXQyTj0lsue9BJV5SokJxbDg==" length="781646" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.28/PortWin-29-from-26.delta" sparkle:deltaFrom="26" type="application/octet-stream" sparkle:edSignature="ZUcpTl/UhZ0sdlwa/+EBbivx+dQq7djADHSgLP/E5C6TaQTVUdnFqViRZCDlhqop6FAoaSCIvFPJZBuPCt3ABA==" length="812630" />
       </sparkle:deltas>
     </item>
   </channel>

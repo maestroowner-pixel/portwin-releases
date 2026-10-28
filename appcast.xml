@@ -4,17 +4,17 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.28</title>
-      <pubDate>Sun, 25 Oct 2026 12:33:11 +0000</pubDate>
-      <sparkle:version>29</sparkle:version>
-      <sparkle:shortVersionString>1.28</sparkle:shortVersionString>
+      <title>PortWin 1.29</title>
+      <pubDate>Wed, 28 Oct 2026 13:57:58 +0000</pubDate>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>1.29</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>When a .NET program crashes, its log now contains the exception type, message and stack (from the Windows event log), and &quot;Last run&quot; shows the exception type instead of a bare exception code.</li><li>Changing the Windows version and other service commands are no longer reported as crashes when something else in the bottle fails while Wine starts.</li><li>The problem report form now reminds you to leave an e-mail: without it the developer can&#x27;t reply or ask for details.</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.28/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="ine8eRH6ILmeWFjTiOdwrTeE9eDC0JE4dPAjgHYaQNWtHJhGP/ygGnb9TPoXtByQLFcMHHRg7aCb0TModEOXAg==" length="386704048" />
+      <description><![CDATA[<ul><li>The free trial is now 7 days. If you started your trial before this update, you keep your 14 days.</li><li>When a program can&#x27;t find one of its own files (a DLL that is part of the program, not a Windows component), PortWin says so and suggests running it from the folder where the program is installed, instead of offering Fix Automatically, which can&#x27;t help here.</li><li>After Fix Automatically, &quot;Last run&quot; and the problem report show the program&#x27;s own failure again — not the Windows version that PortWin set back.</li><li>A hint when macOS hasn&#x27;t allowed PortWin to access external drives, with a button that opens the right settings.</li><li>Programs built for Windows Vista or later in a Windows XP bottle: a one-click &quot;Windows 10 for this program&quot;.</li><li>Per-program Windows version now works for programs added as shortcuts.</li><li>A .NET crash of another process in the bottle is no longer reported as a crash of your program.</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.29/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="GK7EV2sfPeZx5HOrOURpDC5e6Fj5DJszQlhzU6YcJvQ4RtZnk5mSq8dp0hfJRpIvaj6Xwqe9INoOR7rO4kqOBw==" length="386690001" />
       <sparkle:deltas>
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.28/PortWin-29-from-28.delta" sparkle:deltaFrom="28" type="application/octet-stream" sparkle:edSignature="XWaIOOJ/qpstrlI+4n2WKoqDxMizSw7wBk+lyUVqXb5QoOANKBA0ui0b0N1WGLHPBSf5WDlXq3QD1aTUhlbeAQ==" length="599430" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.28/PortWin-29-from-27.delta" sparkle:deltaFrom="27" type="application/octet-stream" sparkle:edSignature="oL6LqFR0zRBwrwcvG+AvwbmMeBHHjKdjud890MMXBs4OBw0fteWHs4a/NB0VDDDXQyTj0lsue9BJV5SokJxbDg==" length="781646" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.28/PortWin-29-from-26.delta" sparkle:deltaFrom="26" type="application/octet-stream" sparkle:edSignature="ZUcpTl/UhZ0sdlwa/+EBbivx+dQq7djADHSgLP/E5C6TaQTVUdnFqViRZCDlhqop6FAoaSCIvFPJZBuPCt3ABA==" length="812630" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.29/PortWin-30-from-29.delta" sparkle:deltaFrom="29" type="application/octet-stream" sparkle:edSignature="fa04mA2lGAcNOXy1loJ/gLhOXkYq/PpHcdNrVBxDW4t2VQCvwwDcsQrP/dYCsXw/OgKmlI4Mf2aG2q3e8Bv9BA==" length="755090" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.29/PortWin-30-from-28.delta" sparkle:deltaFrom="28" type="application/octet-stream" sparkle:edSignature="rS+anGMMGJP5gZ/A8KoYw6hFF5gBdhNZLg5aE10BJryuwUsaYkkpJftGxdmUmqB1cNRaH5RBAZydV3ZHLJyPDg==" length="759666" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.29/PortWin-30-from-27.delta" sparkle:deltaFrom="27" type="application/octet-stream" sparkle:edSignature="uBjRVoqjmm+2OEKaluTBHE/2/W2PFh7P5o5pZdgg0YFFaLSEhCpzriul+EIvvSfBdw8ZepzOLAnfbSbv73K2Bg==" length="836650" />
       </sparkle:deltas>
     </item>
   </channel>

@@ -4,17 +4,17 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.29</title>
-      <pubDate>Wed, 28 Oct 2026 13:57:58 +0000</pubDate>
-      <sparkle:version>30</sparkle:version>
-      <sparkle:shortVersionString>1.29</sparkle:shortVersionString>
+      <title>PortWin 1.30</title>
+      <pubDate>Wed, 28 Oct 2026 16:05:21 +0000</pubDate>
+      <sparkle:version>31</sparkle:version>
+      <sparkle:shortVersionString>1.30</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>The free trial is now 7 days. If you started your trial before this update, you keep your 14 days.</li><li>When a program can&#x27;t find one of its own files (a DLL that is part of the program, not a Windows component), PortWin says so and suggests running it from the folder where the program is installed, instead of offering Fix Automatically, which can&#x27;t help here.</li><li>After Fix Automatically, &quot;Last run&quot; and the problem report show the program&#x27;s own failure again — not the Windows version that PortWin set back.</li><li>A hint when macOS hasn&#x27;t allowed PortWin to access external drives, with a button that opens the right settings.</li><li>Programs built for Windows Vista or later in a Windows XP bottle: a one-click &quot;Windows 10 for this program&quot;.</li><li>Per-program Windows version now works for programs added as shortcuts.</li><li>A .NET crash of another process in the bottle is no longer reported as a crash of your program.</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.29/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="GK7EV2sfPeZx5HOrOURpDC5e6Fj5DJszQlhzU6YcJvQ4RtZnk5mSq8dp0hfJRpIvaj6Xwqe9INoOR7rO4kqOBw==" length="386690001" />
+      <description><![CDATA[<ul><li>New recipe: ETS6 (KNX) — design and commissioning of KNX systems. Bring your own installer from my.knx.org (the demo works too). The recipe downloads the Wine Devel engine by itself (about 210 MB): ETS6&#x27;s main window needs it.</li><li>New downloadable engine: Wine Devel 11.18 — the newest Wine, for work programs that need the latest Wine fixes. For games, the other engines are better.</li><li>Recipes can now switch a bottle to the engine the program needs once its components are installed.</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.30/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="K5+ZZgjVVnDmkEKYxFa1rG6E9mYXpsDHc9wafssSgrh+BFOrrFfoLE+aYUQ1nKukG6zhCHZWdauXAFa430y3Cw==" length="386807143" />
       <sparkle:deltas>
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.29/PortWin-30-from-29.delta" sparkle:deltaFrom="29" type="application/octet-stream" sparkle:edSignature="fa04mA2lGAcNOXy1loJ/gLhOXkYq/PpHcdNrVBxDW4t2VQCvwwDcsQrP/dYCsXw/OgKmlI4Mf2aG2q3e8Bv9BA==" length="755090" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.29/PortWin-30-from-28.delta" sparkle:deltaFrom="28" type="application/octet-stream" sparkle:edSignature="rS+anGMMGJP5gZ/A8KoYw6hFF5gBdhNZLg5aE10BJryuwUsaYkkpJftGxdmUmqB1cNRaH5RBAZydV3ZHLJyPDg==" length="759666" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.29/PortWin-30-from-27.delta" sparkle:deltaFrom="27" type="application/octet-stream" sparkle:edSignature="uBjRVoqjmm+2OEKaluTBHE/2/W2PFh7P5o5pZdgg0YFFaLSEhCpzriul+EIvvSfBdw8ZepzOLAnfbSbv73K2Bg==" length="836650" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.30/PortWin-31-from-30.delta" sparkle:deltaFrom="30" type="application/octet-stream" sparkle:edSignature="w0mRE6ANIWx/VaN69F6lOhi1+yrY82GfEzNV+mg67Hxjjf++fZ7gcYgqoLVAr8jm6XZ/baMmrQTNEvyQ0vwFCw==" length="500382" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.30/PortWin-31-from-29.delta" sparkle:deltaFrom="29" type="application/octet-stream" sparkle:edSignature="8BvYnz5QcHcQrNSEa4KIh0u3DSSpOUbgfoG3omRjaBEHXF1RH5eT8mx7iu0G1ndjO/KmCw0TC6KgJyuCXdcdCg==" length="757650" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.30/PortWin-31-from-28.delta" sparkle:deltaFrom="28" type="application/octet-stream" sparkle:edSignature="wfLlVqbpm/QutWRIN/XGvIJvGgES5o8NkaGTKj+JCvlwkz5zUuGIGI/Gz4zxxCiriDcMJViuSoGcvwmWBT6NBA==" length="761166" />
       </sparkle:deltas>
     </item>
   </channel>

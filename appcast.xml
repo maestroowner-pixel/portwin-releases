@@ -4,17 +4,17 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.30</title>
-      <pubDate>Wed, 28 Oct 2026 16:05:21 +0000</pubDate>
-      <sparkle:version>31</sparkle:version>
-      <sparkle:shortVersionString>1.30</sparkle:shortVersionString>
+      <title>PortWin 1.31</title>
+      <pubDate>Wed, 04 Nov 2026 18:41:01 +0000</pubDate>
+      <sparkle:version>32</sparkle:version>
+      <sparkle:shortVersionString>1.31</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>New recipe: ETS6 (KNX) — design and commissioning of KNX systems. Bring your own installer from my.knx.org (the demo works too). The recipe downloads the Wine Devel engine by itself (about 210 MB): ETS6&#x27;s main window needs it.</li><li>New downloadable engine: Wine Devel 11.18 — the newest Wine, for work programs that need the latest Wine fixes. For games, the other engines are better.</li><li>Recipes can now switch a bottle to the engine the program needs once its components are installed.</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.30/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="K5+ZZgjVVnDmkEKYxFa1rG6E9mYXpsDHc9wafssSgrh+BFOrrFfoLE+aYUQ1nKukG6zhCHZWdauXAFa430y3Cw==" length="386807143" />
+      <description><![CDATA[<ul><li>Programs in folders whose names contain characters Windows forbids now start instead of failing with exit code 53</li><li>Programs started through a linked folder now see that folder as their working directory</li><li>Games from a Steam library start Steam first and wait for sign-in, so mod loaders such as SKSE are no longer bypassed</li><li>Problem reports now show when Wine could not open the program file</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.31/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="r8bwyRwbTmbAzBUu/J0SBVb6JDwrAw67oMSCADgPa1KRNeThJrMa7SfxSCsht+5zmqAKrDZzTX2zmQu1/YsNBA==" length="386596791" />
       <sparkle:deltas>
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.30/PortWin-31-from-30.delta" sparkle:deltaFrom="30" type="application/octet-stream" sparkle:edSignature="w0mRE6ANIWx/VaN69F6lOhi1+yrY82GfEzNV+mg67Hxjjf++fZ7gcYgqoLVAr8jm6XZ/baMmrQTNEvyQ0vwFCw==" length="500382" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.30/PortWin-31-from-29.delta" sparkle:deltaFrom="29" type="application/octet-stream" sparkle:edSignature="8BvYnz5QcHcQrNSEa4KIh0u3DSSpOUbgfoG3omRjaBEHXF1RH5eT8mx7iu0G1ndjO/KmCw0TC6KgJyuCXdcdCg==" length="757650" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.30/PortWin-31-from-28.delta" sparkle:deltaFrom="28" type="application/octet-stream" sparkle:edSignature="wfLlVqbpm/QutWRIN/XGvIJvGgES5o8NkaGTKj+JCvlwkz5zUuGIGI/Gz4zxxCiriDcMJViuSoGcvwmWBT6NBA==" length="761166" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.31/PortWin-32-from-31.delta" sparkle:deltaFrom="31" type="application/octet-stream" sparkle:edSignature="FAtA5JB/1KDZF6THdi+pda41QX53vtafUCVbm7wJ+zEJlV0cJf7eV8If8DSnZzSb7ZAYF/ZGv1QxZBPZ4ZQeAQ==" length="723806" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.31/PortWin-32-from-30.delta" sparkle:deltaFrom="30" type="application/octet-stream" sparkle:edSignature="MZ3VYy7psHcfB8aHsf03NgZBuaVOpH5IQbb6dhGxhRvYGsQLDLKi0/dJTgwd0JT9XyUBkkafs4VmaJsOC5PlAw==" length="724178" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.31/PortWin-32-from-29.delta" sparkle:deltaFrom="29" type="application/octet-stream" sparkle:edSignature="k59frLgHyam9iGH3Y8KUbsK62YSxK0SNH10zS+0xMHgiD2vWhUSSrtoqv8hmNcO7ECigqtsfzZ9rU9m2LyBbAw==" length="805082" />
       </sparkle:deltas>
     </item>
   </channel>

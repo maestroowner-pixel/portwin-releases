@@ -4,17 +4,17 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.31</title>
-      <pubDate>Wed, 04 Nov 2026 18:41:01 +0000</pubDate>
-      <sparkle:version>32</sparkle:version>
-      <sparkle:shortVersionString>1.31</sparkle:shortVersionString>
+      <title>PortWin 1.32</title>
+      <pubDate>Sat, 07 Nov 2026 20:24:45 +0000</pubDate>
+      <sparkle:version>33</sparkle:version>
+      <sparkle:shortVersionString>1.32</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Programs in folders whose names contain characters Windows forbids now start instead of failing with exit code 53</li><li>Programs started through a linked folder now see that folder as their working directory</li><li>Games from a Steam library start Steam first and wait for sign-in, so mod loaders such as SKSE are no longer bypassed</li><li>Problem reports now show when Wine could not open the program file</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.31/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="r8bwyRwbTmbAzBUu/J0SBVb6JDwrAw67oMSCADgPa1KRNeThJrMa7SfxSCsht+5zmqAKrDZzTX2zmQu1/YsNBA==" length="386596791" />
+      <description><![CDATA[<ul><li>Games with disc copy protection (SecuROM, SafeDisc, StarForce) now get a clear explanation after launch: this protection does not work in Wine, so the game can&#x27;t find its disc even with the image inserted</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.32/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="plzIKO+DRJGkDy3ZjY8SSXdt0nPEFC7Q74cR/ytKE0pXbhuY6erUbj67QAbhyCrsGrFYZHwS+z1Tja07xdlnAw==" length="386532214" />
       <sparkle:deltas>
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.31/PortWin-32-from-31.delta" sparkle:deltaFrom="31" type="application/octet-stream" sparkle:edSignature="FAtA5JB/1KDZF6THdi+pda41QX53vtafUCVbm7wJ+zEJlV0cJf7eV8If8DSnZzSb7ZAYF/ZGv1QxZBPZ4ZQeAQ==" length="723806" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.31/PortWin-32-from-30.delta" sparkle:deltaFrom="30" type="application/octet-stream" sparkle:edSignature="MZ3VYy7psHcfB8aHsf03NgZBuaVOpH5IQbb6dhGxhRvYGsQLDLKi0/dJTgwd0JT9XyUBkkafs4VmaJsOC5PlAw==" length="724178" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.31/PortWin-32-from-29.delta" sparkle:deltaFrom="29" type="application/octet-stream" sparkle:edSignature="k59frLgHyam9iGH3Y8KUbsK62YSxK0SNH10zS+0xMHgiD2vWhUSSrtoqv8hmNcO7ECigqtsfzZ9rU9m2LyBbAw==" length="805082" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.32/PortWin-33-from-32.delta" sparkle:deltaFrom="32" type="application/octet-stream" sparkle:edSignature="GLEbehW6SkuNYKtah+hL0iJ3KNePOzfwA34MA86ea+MORgRX7D8HIsJVc+mouEQmM0gGEIjWcX8nNpWLLwy7AA==" length="679702" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.32/PortWin-33-from-31.delta" sparkle:deltaFrom="31" type="application/octet-stream" sparkle:edSignature="tv+SbHNi5MgrXW4pXf5TGpomLugguO2pRVhL4VI/E9yB98Lh0neGKofRaHjYDVxsiqlsYXc4gUgFB6TeOfPVAA==" length="744962" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.32/PortWin-33-from-30.delta" sparkle:deltaFrom="30" type="application/octet-stream" sparkle:edSignature="JjkSiLrrKG6dsSC9AKFc7vjdrs1tsVRwNu1/pbQQw4rTgrH1KlutkqUWRNClqoCdaFe1DVam4f8nzXwMSuK+Bg==" length="749590" />
       </sparkle:deltas>
     </item>
   </channel>

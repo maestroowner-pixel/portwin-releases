@@ -4,17 +4,17 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.32</title>
-      <pubDate>Sat, 07 Nov 2026 20:24:45 +0000</pubDate>
-      <sparkle:version>33</sparkle:version>
-      <sparkle:shortVersionString>1.32</sparkle:shortVersionString>
+      <title>PortWin 1.33</title>
+      <pubDate>Sun, 08 Nov 2026 16:04:50 +0000</pubDate>
+      <sparkle:version>34</sparkle:version>
+      <sparkle:shortVersionString>1.33</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Games with disc copy protection (SecuROM, SafeDisc, StarForce) now get a clear explanation after launch: this protection does not work in Wine, so the game can&#x27;t find its disc even with the image inserted</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.32/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="plzIKO+DRJGkDy3ZjY8SSXdt0nPEFC7Q74cR/ytKE0pXbhuY6erUbj67QAbhyCrsGrFYZHwS+z1Tja07xdlnAw==" length="386532214" />
+      <description><![CDATA[<ul><li>Disc images in more formats: besides .iso, PortWin now opens .bin/.cue, Alcohol .mdf/.mds, Nero .nrg and CloneCD .ccd/.img. Raw-sector images are converted to .iso once (audio tracks are skipped), then inserted as drive D: like a real CD.</li><li>The Disks section is always shown in a bottle, with a new “Insert Disc…” button.</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.33/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="svYBlMOajhEaSRBpzUW4LRHEQqsSbe2qNsbmvBnvwyWadj97v2prUhc3PgTHgLeEV7qe/zDNc5JLF+fHaofIDQ==" length="386742998" />
       <sparkle:deltas>
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.32/PortWin-33-from-32.delta" sparkle:deltaFrom="32" type="application/octet-stream" sparkle:edSignature="GLEbehW6SkuNYKtah+hL0iJ3KNePOzfwA34MA86ea+MORgRX7D8HIsJVc+mouEQmM0gGEIjWcX8nNpWLLwy7AA==" length="679702" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.32/PortWin-33-from-31.delta" sparkle:deltaFrom="31" type="application/octet-stream" sparkle:edSignature="tv+SbHNi5MgrXW4pXf5TGpomLugguO2pRVhL4VI/E9yB98Lh0neGKofRaHjYDVxsiqlsYXc4gUgFB6TeOfPVAA==" length="744962" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.32/PortWin-33-from-30.delta" sparkle:deltaFrom="30" type="application/octet-stream" sparkle:edSignature="JjkSiLrrKG6dsSC9AKFc7vjdrs1tsVRwNu1/pbQQw4rTgrH1KlutkqUWRNClqoCdaFe1DVam4f8nzXwMSuK+Bg==" length="749590" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.33/PortWin-34-from-33.delta" sparkle:deltaFrom="33" type="application/octet-stream" sparkle:edSignature="4TqfnPzGTQ/T+7E8pF6LEdRwFfLBVzZoKiD3ZQUdAgPXYz7EIE1LPhhJ6LDlXW/8xd6v3F1u0cPrmLB7f5Z6CA==" length="729542" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.33/PortWin-34-from-32.delta" sparkle:deltaFrom="32" type="application/octet-stream" sparkle:edSignature="qIe/AKxqXCXMUkoLH3DrlgriFr0bgd+igtaqPUgV+mwrx7QQootgkj5ulvXFxKM5RqkGz4DXRi/YQ7Y6L51BDQ==" length="746174" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.33/PortWin-34-from-31.delta" sparkle:deltaFrom="31" type="application/octet-stream" sparkle:edSignature="6nkQ0habk6lpKoOWv44dMsARoxFf2oAwn+H+GvFUCORYW5H5Ti3w3QkjuipFv63B/BDRLu4Zu78nUOSn5f7DDA==" length="788438" />
       </sparkle:deltas>
     </item>
   </channel>

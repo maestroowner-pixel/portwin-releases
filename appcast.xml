@@ -4,17 +4,17 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.33</title>
-      <pubDate>Sun, 08 Nov 2026 16:04:50 +0000</pubDate>
-      <sparkle:version>34</sparkle:version>
-      <sparkle:shortVersionString>1.33</sparkle:shortVersionString>
+      <title>PortWin 1.34</title>
+      <pubDate>Sat, 21 Nov 2026 15:37:23 +0000</pubDate>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>1.34</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Disc images in more formats: besides .iso, PortWin now opens .bin/.cue, Alcohol .mdf/.mds, Nero .nrg and CloneCD .ccd/.img. Raw-sector images are converted to .iso once (audio tracks are skipped), then inserted as drive D: like a real CD.</li><li>The Disks section is always shown in a bottle, with a new “Insert Disc…” button.</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.33/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="svYBlMOajhEaSRBpzUW4LRHEQqsSbe2qNsbmvBnvwyWadj97v2prUhc3PgTHgLeEV7qe/zDNc5JLF+fHaofIDQ==" length="386742998" />
+      <description><![CDATA[<ul><li>When an installer fails because a Windows component is missing, PortWin comes to the front, names the component and offers “Install and Run Again”. MSIX packages and installers that need administrator rights get a plain explanation.</li><li>Programs without Unicode support use the code page of a language from your Mac’s language list, even when the Mac itself is in English (for example 1251 for Russian), so their windows, folders and shortcuts show readable text instead of garbled characters.</li><li>Old games on the id Tech 3 engine (Quake III, Return to Castle Wolfenstein, Jedi Knight, Call of Duty…) open full screen: if a game asks for a resolution your Mac doesn’t have, PortWin switches it to the screen resolution. For the game console, the keyboard switches to a Latin layout and switches back when you quit.</li><li>Apps that crash because Microsoft Edge WebView2 is missing are now recognised, and PortWin offers to install it.</li><li>The problem report form now shows the reply address in its own highlighted box and remembers it for next time — without it we can’t answer you.</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.34/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="kV88EcR9QSjodI4JQYc5cXR6syuOxWTqbKin0tKGewZb1SSHmsg8lE/YGrm3Ck73pBTcyqB7mKnr7DnVkcsxAA==" length="386841967" />
       <sparkle:deltas>
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.33/PortWin-34-from-33.delta" sparkle:deltaFrom="33" type="application/octet-stream" sparkle:edSignature="4TqfnPzGTQ/T+7E8pF6LEdRwFfLBVzZoKiD3ZQUdAgPXYz7EIE1LPhhJ6LDlXW/8xd6v3F1u0cPrmLB7f5Z6CA==" length="729542" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.33/PortWin-34-from-32.delta" sparkle:deltaFrom="32" type="application/octet-stream" sparkle:edSignature="qIe/AKxqXCXMUkoLH3DrlgriFr0bgd+igtaqPUgV+mwrx7QQootgkj5ulvXFxKM5RqkGz4DXRi/YQ7Y6L51BDQ==" length="746174" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.33/PortWin-34-from-31.delta" sparkle:deltaFrom="31" type="application/octet-stream" sparkle:edSignature="6nkQ0habk6lpKoOWv44dMsARoxFf2oAwn+H+GvFUCORYW5H5Ti3w3QkjuipFv63B/BDRLu4Zu78nUOSn5f7DDA==" length="788438" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.34/PortWin-35-from-34.delta" sparkle:deltaFrom="34" type="application/octet-stream" sparkle:edSignature="oo23IXQTIooYTI6A4YXwLJJTjZ1rOQ9GjC/4AGLevI5WiQI8zgmOI7iIj822OZBk/2M2wn5qMSi+71xlfDV1BA==" length="781206" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.34/PortWin-35-from-33.delta" sparkle:deltaFrom="33" type="application/octet-stream" sparkle:edSignature="B7wSPMeMVmoO4aQLgLVWqwQRapX0lvozf+W3RKDGWrhYNQ7qcCU92CBc4FNaZwW1Tn2O/Vcr/WJDNFzYL3SdAA==" length="811034" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.34/PortWin-35-from-32.delta" sparkle:deltaFrom="32" type="application/octet-stream" sparkle:edSignature="b1vEkxCcROKBPSYHB2ogXuKsht7XKqSOxiCc20+aUFh/1BfCRHYEkkxueLMj923ZmWLDzz3Y5Z3ru7qggr79DQ==" length="827518" />
       </sparkle:deltas>
     </item>
   </channel>

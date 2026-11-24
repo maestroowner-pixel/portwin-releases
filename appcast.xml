@@ -4,17 +4,17 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.36</title>
-      <pubDate>Tue, 24 Nov 2026 01:14:41 +0000</pubDate>
-      <sparkle:version>37</sparkle:version>
-      <sparkle:shortVersionString>1.36</sparkle:shortVersionString>
+      <title>PortWin 1.37</title>
+      <pubDate>Tue, 24 Nov 2026 14:13:47 +0000</pubDate>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>1.37</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>New app icon: soft, rounded tiles in PortWin’s amber and vanilla colours — easier to spot in the Dock and in Finder.</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.36/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="LeuuZtdQHWs7PXxs/RLmJeVyxxBKScOGXB/j2pFL5NK7w6E+HbNtuzlsgKQqbaZC1Lme/wO6JoWLZ+fjmrGyDg==" length="386804019" />
+      <description><![CDATA[<ul><li>Fixed: opening a program from Finder or from a PortWin shortcut no longer opens a second PortWin window — everything stays in one window.</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.37/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="ZhxyCfYyhnbvNi73Dobgwudif/klFC0RLUUwabChpmahdpDCQqoSocFgO2BTgGRDWQ9lNEVBM65NdxEQq5pABw==" length="386855637" />
       <sparkle:deltas>
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.36/PortWin-37-from-36.delta" sparkle:deltaFrom="36" type="application/octet-stream" sparkle:edSignature="2OzoA5n/XXfhcfI28rpUxIRHFYcT85TgiWpOkNEFeKHDiGE10LPpTTdiDcj77vhQU2G0a8ZIqb2J0YPuJ9WSDw==" length="1365642" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.36/PortWin-37-from-35.delta" sparkle:deltaFrom="35" type="application/octet-stream" sparkle:edSignature="yBu1P02ymG+hcC9uw6UbEiUTcxY9Ym2qd4uYj9pqdityQCNYoKTxDVPOMp8XyNWmfFa3LGjf7Ztm9RPPB85KAA==" length="1629442" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.36/PortWin-37-from-34.delta" sparkle:deltaFrom="34" type="application/octet-stream" sparkle:edSignature="3JcMlyJ1dPHGJnAkS7lKQGFEMK4vvLHglIz+ewfasbyPD7SDJKYzPO7hCWMkcHMVoJH+4wsMEg1CNPpgeP4+Cg==" length="1694650" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.37/PortWin-38-from-37.delta" sparkle:deltaFrom="37" type="application/octet-stream" sparkle:edSignature="/rLuq8dBWzBlsRk1963Lqp5LOWX/7SUlObnY8PN7A5uw6P36M4lA6n3p2PlvUjxCj5WzAgMfoCTt7CUnEUpvDA==" length="726314" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.37/PortWin-38-from-36.delta" sparkle:deltaFrom="36" type="application/octet-stream" sparkle:edSignature="szNidaZ3DNLNuyh6uyINROfabXc2AoK2is0C/IuD5IEsmW5VqQKE2wI1Pm9Yku0RknPXN66hGVhTcLsqBHZGCg==" length="1589858" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.37/PortWin-38-from-35.delta" sparkle:deltaFrom="35" type="application/octet-stream" sparkle:edSignature="NOasHl3j4v/f9aERSFY6h3Jx4Els2ymRviRcmxWF5QT3yUsYU8YDAEMo9tUdN47B4F1O8DmsGlHtj7qay8MJBg==" length="1655666" />
       </sparkle:deltas>
     </item>
   </channel>

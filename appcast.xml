@@ -4,17 +4,17 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.37</title>
-      <pubDate>Tue, 24 Nov 2026 14:13:47 +0000</pubDate>
-      <sparkle:version>38</sparkle:version>
-      <sparkle:shortVersionString>1.37</sparkle:shortVersionString>
+      <title>PortWin 1.38</title>
+      <pubDate>Fri, 27 Nov 2026 01:48:05 +0000</pubDate>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>1.38</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Fixed: opening a program from Finder or from a PortWin shortcut no longer opens a second PortWin window — everything stays in one window.</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.37/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="ZhxyCfYyhnbvNi73Dobgwudif/klFC0RLUUwabChpmahdpDCQqoSocFgO2BTgGRDWQ9lNEVBM65NdxEQq5pABw==" length="386855637" />
+      <description><![CDATA[<ul><li>Fix Automatically remembers what helped a program and tries it first next time — in a new bottle or after reinstalling.</li><li>Fix Automatically can share solutions anonymously with other PortWin users: only a fingerprint of the program file and what helped, never names or paths. Solutions that helped others are tried first. Turn it off with the checkbox in the Fix Automatically window.</li><li>Fix Automatically no longer reports success when a program keeps running without ever showing a window, or closes without one.</li><li>Programs on .NET Framework that Wine Mono can&#x27;t run are now recognized: PortWin explains it and Fix Automatically installs .NET Framework 4.8. Also recognized from the log: .NET 6–9, XNA and Managed DirectX.</li><li>Program settings suggest Wine 11 for 32-bit games on DirectX 8–9: they usually run noticeably faster on it.</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.38/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="CjkHwpIaC4DebVt76XMjYR9/jmjQ3BQpxaO2U/xybgSxjrhLGZwq/BevujzDHCqf+ZXNQ4fuOtnk5vBTx22lBQ==" length="386965810" />
       <sparkle:deltas>
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.37/PortWin-38-from-37.delta" sparkle:deltaFrom="37" type="application/octet-stream" sparkle:edSignature="/rLuq8dBWzBlsRk1963Lqp5LOWX/7SUlObnY8PN7A5uw6P36M4lA6n3p2PlvUjxCj5WzAgMfoCTt7CUnEUpvDA==" length="726314" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.37/PortWin-38-from-36.delta" sparkle:deltaFrom="36" type="application/octet-stream" sparkle:edSignature="szNidaZ3DNLNuyh6uyINROfabXc2AoK2is0C/IuD5IEsmW5VqQKE2wI1Pm9Yku0RknPXN66hGVhTcLsqBHZGCg==" length="1589858" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.37/PortWin-38-from-35.delta" sparkle:deltaFrom="35" type="application/octet-stream" sparkle:edSignature="NOasHl3j4v/f9aERSFY6h3Jx4Els2ymRviRcmxWF5QT3yUsYU8YDAEMo9tUdN47B4F1O8DmsGlHtj7qay8MJBg==" length="1655666" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.38/PortWin-39-from-38.delta" sparkle:deltaFrom="38" type="application/octet-stream" sparkle:edSignature="31SnPrTF3MqWcTsp/FskpfgAC7T3A9ymYiWJuXg64OLchGyx+tRXK/wF9NtSiYOx20AQ+SN8RewFIUTHgGEXDQ==" length="783322" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.38/PortWin-39-from-37.delta" sparkle:deltaFrom="37" type="application/octet-stream" sparkle:edSignature="XeTuRh2/dWbFCaYMgKq+tOlBUQlbrU+3W2At448E2hg7NwpyeR15C4muS7YPutgHp0i4kCLat3Jz2DslpPGUBg==" length="812498" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.38/PortWin-39-from-36.delta" sparkle:deltaFrom="36" type="application/octet-stream" sparkle:edSignature="zywbr9pFax/ztaHBmz+3mXIol1djRvnVMDkgwA7KethW8A2MdH3OhdlHsgdHpyGhedhAYL3X03iC5UVsIMa9CA==" length="1677690" />
       </sparkle:deltas>
     </item>
   </channel>

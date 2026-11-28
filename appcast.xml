@@ -4,17 +4,17 @@
     <title>PortWin</title>
     <link>https://portwin.kuka-lab.com</link>
     <item>
-      <title>PortWin 1.40</title>
-      <pubDate>Fri, 27 Nov 2026 22:51:15 +0000</pubDate>
-      <sparkle:version>41</sparkle:version>
-      <sparkle:shortVersionString>1.40</sparkle:shortVersionString>
+      <title>PortWin 1.41</title>
+      <pubDate>Sat, 28 Nov 2026 16:44:37 +0000</pubDate>
+      <sparkle:version>42</sparkle:version>
+      <sparkle:shortVersionString>1.41</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>The trial period can no longer be extended by setting the Mac’s clock back; the same applies to the 30-day offline grace for license checks.</li><li>Stability fix in license handling at startup.</li></ul>]]></description>
-      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.40/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="mu3uWmaBOIysIAyPSiFqkAMa/7lmgBhMfXJm7tZ+Q0acMasDlfHBGjjhRaeWFTs7mw55RzKI6b34eh7tMQ0UDA==" length="387005294" />
+      <description><![CDATA[<ul><li>Japanese and Korean games and programs without Unicode support now run with their own code page (932 or 949), even when your Mac uses another language: PortWin recognizes them by Japanese or Korean characters in their name and in the files next to them. Before, such games could quit silently.</li><li>After an update, PortWin shows what’s new; the full history is in Help → Change History.</li></ul>]]></description>
+      <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.41/PortWin.dmg" type="application/octet-stream" sparkle:edSignature="E5cd+pNhb36BOuTNvZ267vc2sVUf0N5CGEIbNd9XpXFHrxTdSX9ElwOw+nGv1XYFLS2Xx6yQ/HTqNqXKlY75BA==" length="387346659" />
       <sparkle:deltas>
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.40/PortWin-41-from-40.delta" sparkle:deltaFrom="40" type="application/octet-stream" sparkle:edSignature="Ssc08rFW41YISloQw58DCyZZ3kYv3DmfUtx9JuF6S7cGayZ9+t5wJW89l2Pi6MZtQRVEewQGge/sizVHUJ0YDA==" length="674390" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.40/PortWin-41-from-39.delta" sparkle:deltaFrom="39" type="application/octet-stream" sparkle:edSignature="N5J3m6afBRZGmkqPkrIy9k8nh0EY8JkCKp/0960F8uGPDMxSvhpH8DWGq1vupfGnZ+pjMkLi53GygjO+Hc2SBw==" length="982354" />
-        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.40/PortWin-41-from-38.delta" sparkle:deltaFrom="38" type="application/octet-stream" sparkle:edSignature="DD9jMqC/aku0PixobJ86AMFnaZFKzt0ZNbd2do/UnsgP0eMsWnvdB4dG70nehp+FTfCG/e4ywv2B8LI/NliJAg==" length="1036102" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.41/PortWin-42-from-41.delta" sparkle:deltaFrom="41" type="application/octet-stream" sparkle:edSignature="LPMTvp9HXaxdH9Xr8rMOVqvOLDQfDCmys9JzImbRBV3nXeR4jDItNIGDFa/hUdvXucAHI52jrV5kVytg3Y5MDg==" length="819430" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.41/PortWin-42-from-40.delta" sparkle:deltaFrom="40" type="application/octet-stream" sparkle:edSignature="chgS0pfS+1nxMYBTe7YN0+t2OdQcevKZjTKCRGOBHBVry1y9+RNWl7FjenHH0LGiCHXvLsiZ/RnUijwSZELSBA==" length="834126" />
+        <enclosure url="https://github.com/maestroowner-pixel/portwin-releases/releases/download/v1.41/PortWin-42-from-39.delta" sparkle:deltaFrom="39" type="application/octet-stream" sparkle:edSignature="ARAsQUchHT3V0vPcuLUipVjtPaaFqPN8kLxdnz2ceQqRamnK3w6rdTbFDyA5sb0WCGf0ol/ZFmgsZ8R1U+mECQ==" length="1039066" />
       </sparkle:deltas>
     </item>
   </channel>
